@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* CUSROR EFFECT ON ALL ICONS & SWITCHES */
+.fa, .form-check .form-check-input{
+    cursor: pointer;
+}
+
+/* CONTAINER LEFT COLUMN  */
+.container .row .left-col{
+    min-height: 100vh;
+}
+
+.container .row .left-col .left-menu:hover{
+    border: 5px solid rgb(192, 5, 192);
+    border-radius: 10px;
+    color: rgb(192, 5, 192);
+    cursor: pointer;
+}
+.container .row .left-col .left-menu:hover a{
+    color: rgb(192, 5, 192);
+    font-weight: 700;
+}
+
+.container .row .left-col .left-menu img{
+    padding: 10px 0;
+}
+.container .row .left-col .left-menu a{
+    text-decoration: none;
+    color: grey;
+    padding: 5px 0 10px 0;
+}
+
+.container .row .left-col .left-menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+/* CONTAINER CENTER COLUMN */
+.container .row .mid-col{
+    box-shadow: 0 1px 2px 0 rgb(60 64 67 / 30%), 0 2px 6px 2px rgb(60 64 67 / 15%);
+}
+
+/* CENTER COLUMN NAVBAR */
+.navbar .preview{
+    border: 1px solid rgb(182, 181, 181);;
+    padding: 5px;
+    border-radius: 3px;
+    margin: 0 10px;
+}
+
+.navbar .preview p{
+    margin: 0;
+}
+
+.navbar .preview p .fa-mobile{
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 5px 10px;
+    box-shadow: 0 1px 2px 0 rgb(60 64 67 / 30%), 0 2px 6px 2px rgb(60 64 67 / 15%);
+}
+.navbar .preview p .fa-desktop{
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 5px;
+    box-shadow: 0 1px 2px 0 rgb(60 64 67 / 30%), 0 2px 6px 2px rgb(60 64 67 / 15%);
+}
+
+/* CENTER COLUMN RIGHT CONTENT CLOSE ICON  */
+.cards .row .right-cont .fa-times-circle-o{
+    position: absolute;
+    top: 15px;
+    right: 25px;
+    font-size: 30px;
+    font-weight: lighter;
+    cursor: pointer;
+    color: grey;
+}
+
+/* CONTAINER CENTER COLUMN MAIN CONTENT */
+.cards{
+    margin: 30px;
+}
+
+/* CONTAINER CENTER COLUMN LEFT CONTENT */
+.cards .row .left-cont{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    box-shadow: 0 1px 2px 0 rgb(60 64 67 / 30%), 0 2px 6px 2px rgb(60 64 67 / 15%);
+}
+
+.cards .row .left-cont h5{
+    padding: 20px 20px 0 10px;
+    color: grey;
+}
+
+.cards .row .left-cont a{
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    color: grey;
+}
+.cards .row .left-cont a:hover{
+    background-color: rgb(214, 214, 214);
+    color: rgb(192,5,192);
+    border-left: 5px solid rgb(192, 5, 192);
+}
+
+/* CONTAINER CENTER COLUMN RIGHT CONTENT */
+.cards .row .right-cont{
+    border-radius: 10px;
+    padding: 80px;
+    box-shadow: 0 1px 2px 0 rgb(60 64 67 / 30%), 0 2px 6px 2px rgb(60 64 67 / 15%);
+}
+
+.cards .row .right-cont .top-content{
+    color: rgb(192, 5, 192);
+}
+
+.cards .row .right-cont .top-content h2{
+    color: rgb(192, 5, 192);
+}
+
+.cards .row .main-content h4{
+    color: rgb(88, 87, 87);
+}
+
+.cards .row .main-content p{
+    color: rgb(116, 116, 116);
+}
+
+.cards .row .right-cont .main-content .data-container{
+    width: 410px;
+}
+
+
+/* CENTER COLUMN RIGHT CONTENT SAVE BUTTON */
+.cards .row .right-cont .save-button{
+    display: flex;
+    justify-content: end;
+}
+
+.cards .row .right-cont .save-button .btn1{
+    color: #fff;
+    background-color: rgb(192, 5, 192);
+    font-weight: 600;
+    width: 150px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: none;
+}
+.cards .row .right-cont .save-button .btn1:hover{
+    background-color: #fff;
+    color:rgb(192, 5, 192);
+    border: 1px solid black;
+}
+
+
+.form-check-input:checked {
+    background-color: rgb(95, 255, 95) !important ;
+}
+
+
+/* CONTAINER CENTER COLUMN 3 BUTTONS */
+.cards .row .buttons .btn{
+    background-color: #fff;
+    color:rgb(192, 5, 192);
+    font-weight: 600;
+    width: 80px;
+    margin: 0 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.cards .row .buttons{
+    margin: 0 0 10px 45px;
+}
+
+.cards .row .buttons .btn:hover{
+    color: #fff;
+    background-color: rgb(192, 5, 192);
+    border: none;
+}
+
+/* CONTAINER RIGHT COLUMN  */
+.container .row .right-col .right-menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
